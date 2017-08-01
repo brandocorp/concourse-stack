@@ -63,6 +63,11 @@ client_key               "#{current_dir}/chef-admin.pem"
 local_mode               true
 chef_zero.enabled        true
 cookbook_path            ["#{current_dir}/../cookbooks"]
+
+# OPTIONAL
+chefdk.generator.copyright_holder   'Brandon Raabe'
+chefdk.generator.email              'brandocorp@gmail.com',
+chefdk.generator.license            'mit'
 ```
 
 2) Generate a private key
